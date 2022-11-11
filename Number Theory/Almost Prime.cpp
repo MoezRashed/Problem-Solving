@@ -14,6 +14,7 @@ using namespace std;
 
 vb prime(5000 , true);
 vi p;
+
 void seive()
 {
     prime[0] = prime[1] = false;
