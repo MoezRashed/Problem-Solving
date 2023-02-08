@@ -1,0 +1,45 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include<set>
+#include<utility>
+#include<math.h>
+#include <cmath>
+#include <climits>
+#include <queue>
+#include <map>
+#include <cstdlib>
+#include <fstream>
+#include <iomanip>   
+#include <iostream>  
+#include <sstream>  // istringstream buffer(myString);
+#include <stack>
+#include <algorithm>
+#include <cstring>
+#include <cassert>
+#define bit(x,i) (x&(1<<i))  //select the bit of position i of x
+#define lowbit(x) ((x)&((x)^((x)-1))) //get the lowest bit of x
+#define hBit(msb,n) asm("bsrl %1,%0" : "=r"(msb) : "r"(n)) //get the highest bit of x, maybe the fastest
+#define max(a,b) (a<b?b:a)
+#define abs(x) (x<0?(-x):x) // big bug here if "-x" is not surrounded by "()"
+#define IN(i,l,r) (l<i&&i<r) //the next for are for checking bound
+#define LINR(i,l,r) (l<=i&&i<=r)
+#define LIN(i,l,r) (l<=i&&i<r)
+#define INR(i,l,r) (l<i&&i<=r)
+#define F(i,L,R) for (int i = L; i < R; i++) //next four are for "for loops"
+#define FE(i,L,R) for (int i = L; i <= R; i++)
+#define FF(i,L,R) for (int i = L; i > R; i--)
+#define FFE(i,L,R) for (int i = L; i >= R; i--)
+#define getI(a) scanf("%d", &a) //next three are handy ways to get ints, it's also force you to use '&' sign
+#define getII(a,b) scanf("%d%d", &a, &b)
+#define getIII(a,b,c) scanf("%d%d%d", &a, &b, &c)
+#define lli long long int
+#define endl '\n'
+#define ii pair<int,int>
+#define vi vector<int>
+#define vb vector<bool>
+#define pb push_back
+#define vii vector<ii>
+#define vl  vector<lli>
+#define fastio ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
+#define ins insert
+#define mp make_pair
