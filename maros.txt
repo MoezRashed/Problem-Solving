@@ -4,9 +4,11 @@
 #include<utility>
 #include<math.h>
 #define lli long long int
+#define ll long long 
 #define endl '\n'
 #define ii pair<int,int>
 #define vi vector<int>
+#define vs vector<string>
 #define vb vector<bool>
 #define pb push_back
 #define vii vector<ii>
@@ -14,3 +16,4 @@
 #define fastio ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 #define ins insert
 #define mp make_pair
+    
