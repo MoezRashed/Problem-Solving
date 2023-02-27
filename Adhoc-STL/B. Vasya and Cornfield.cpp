@@ -22,7 +22,18 @@ using namespace std;
 
 int main()
 {
+    int n , d , m    ;
+    cin >> n >> d    ;
+    cin >> m         ;
+    int xtemp , ytemp;
+    int check = (2*n - d) ; 
+    
+    for (int i = 0 ; i < m ; i++)
+    {
+        cin >> xtemp >> ytemp;
+        if (((xtemp + ytemp) >= d && (xtemp + ytemp)<= check) && ((xtemp - ytemp) >= -d && (xtemp - ytemp)<= d)) cout << "YES" << endl;
+        else cout << "NO" <<endl; 
+    }
 
     return 0;
 }
-    
